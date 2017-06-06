@@ -63,6 +63,7 @@ RSpec.describe PostsController, type: :controller do
       expect(response).to redirect_to Post.last
     end
   end
+  
   describe "GET edit" do
     it "returns http success" do
       get :edit, {id: my_post.id}
