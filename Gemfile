@@ -31,3 +31,5 @@ end
  gem 'turbolinks'
  # CSS framework 
  gem 'bootstrap-sass'
+ # Used for encrypting passwords
+ gem 'bcrypt'
