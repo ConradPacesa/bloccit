@@ -1,6 +1,7 @@
-@import "bootstrap-sprockets";
 @import "bootstrap";
-@import "welcome";
+@import "bootstrap-sprockets";
+@import "sessions";
+
 
 .user-info {
 	margin-top: 9px;
@@ -9,3 +10,4 @@
 .nav {
 	margin-top: 5px;
 }
+
