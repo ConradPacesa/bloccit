@@ -170,7 +170,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autoprefixer-rails
   bcrypt
   bootstrap-sass
   coffee-rails (~> 4.1.0)
