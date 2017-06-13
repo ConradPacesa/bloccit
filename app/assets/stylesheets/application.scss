@@ -2,6 +2,7 @@ $icon-font-path: 'bootstrap/';
 @import "bootstrap";
 @import "bootstrap-sprockets";
 @import "sessions";
+@import "users";
 
 .user-info {
 	margin-top: 9px;

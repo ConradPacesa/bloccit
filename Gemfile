@@ -12,6 +12,7 @@ end
 group :development do 
   gem 'sqlite3'
   gem 'pry-rails'
+  gem 'factory_girl_rails', '~> 4.0'
 end
 
 group :development, :test do 
@@ -33,5 +34,5 @@ end
  gem 'bootstrap-sass'
  # Used for encrypting passwords
  gem 'bcrypt'
- 
+ # used to store sensitive info inside variables
  gem 'figaro', '1.0'
