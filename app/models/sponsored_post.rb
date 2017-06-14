@@ -1,3 +1,3 @@
 class SponsoredPost < ActiveRecord::Base
-	belongs_to :topic, dependent: :destroy
+	belongs_to :topic
 end
